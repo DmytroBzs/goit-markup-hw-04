@@ -79,6 +79,7 @@ h3 {
 }
 .header-container {
   display: flex;
+  
 }
 
 .page-header-nav-list {
@@ -139,6 +140,7 @@ h3 {
   width: 48px;
   background-color: #404bbf;
   border-radius: 2px;
+  bottom: -100%;
 }
 /* Contacts Styles */
 .contacts-list-link {
@@ -350,7 +352,6 @@ h3 {
 .portfolio-list-item {
   display: inline-flex;
   flex-direction: column;
-  padding-bottom: 32px;
   align-items: flex-start;
   width: calc((100% - 48px) / 3);
   position: relative;
